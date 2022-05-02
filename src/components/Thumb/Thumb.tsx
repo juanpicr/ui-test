@@ -1,9 +1,9 @@
 import React from 'react'
-// assets
-import thumbsDown from 'assets/img/thumbs-down.svg'
-import thumbsUp from 'assets/img/thumbs-up.svg'
 // Styled
 import * as Styled from './Thumb.styled'
+// assets
+const thumbsDown = require('assets/img/thumbs-down.svg').default as string
+const thumbsUp = require('assets/img/thumbs-up.svg').default as string
 
 export interface ThumbProps extends React.HTMLProps<HTMLButtonElement>{
   isUp: boolean

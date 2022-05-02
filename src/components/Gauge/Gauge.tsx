@@ -1,8 +1,8 @@
 import React from 'react'
 // styled
 import * as Styled from './Gauge.styled'
-import thumbsUp from '../../assets/img/thumbs-up.svg'
-import thumbsDown from '../../assets/img/thumbs-down.svg'
+const thumbsUp = require('../../assets/img/thumbs-up.svg').default as string
+const thumbsDown = require('../../assets/img/thumbs-down.svg').default as string
 
 interface GaugeProps {
   positive: number

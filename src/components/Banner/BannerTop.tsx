@@ -2,7 +2,7 @@ import React from 'react'
 // Styled
 import * as Styled from './Banner.styled'
 // Assets
-import closeIcon from 'assets/img/close.svg'
+const closeIcon = require('assets/img/close.svg').default as string
 
 const BannerTop = () => {
   return (

@@ -4,9 +4,9 @@ import * as Styled from './FeaturedCard.styled'
 // components
 import { IconButton } from 'components'
 // assets
-import wikipedia from 'assets/img/wikipedia.svg'
-import thumbsUp from 'assets/img/thumbs-up.svg'
-import thumbsDown from 'assets/img/thumbs-down.svg'
+const wikipedia = require('assets/img/wikipedia.svg').default as string
+const thumbsUp = require('assets/img/thumbs-up.svg').default as string
+const thumbsDown = require('assets/img/thumbs-down.svg').default as string
 
 interface FeaturedCardProps {
   title: string

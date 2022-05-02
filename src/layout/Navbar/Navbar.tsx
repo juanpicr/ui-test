@@ -3,10 +3,10 @@ import React from 'react'
 import { MaxCentered } from 'components'
 // Styled
 import * as Styled from './Navbar.styled'
-// assets
-import hamburger from 'assets/img/hamburger.svg'
 // constants
 import { navLinks } from 'constants/index'
+// assets
+const hamburger = require('assets/img/hamburger.svg').default as string
 
 const Navbar = () => {
   return (

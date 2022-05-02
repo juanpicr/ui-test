@@ -1,11 +1,11 @@
 import React from 'react'
-// assets
-import popeFrancis from 'assets/img/pope-francis.png'
-import popeFrancis2x from 'assets/img/pope-francis.@2x.png'
 // components
 import { ClosingGauge, FeaturedCard, MaxCentered } from 'components'
 // styled
 import * as Styled from './Hero.styled'
+// assets
+const popeFrancis = require('assets/img/pope-francis.png')
+const popeFrancis2x = require('assets/img/pope-francis.@2x.png')
 
 const Hero = () => {
   return (

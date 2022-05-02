@@ -3,7 +3,7 @@ import React from 'react'
 import * as Styled from './Search.styled'
 
 // assets
-import search from 'assets/img/search.svg'
+const search = require('assets/img/search.svg').default as string
 
 const Search = () => {
   return (

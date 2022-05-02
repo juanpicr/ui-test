@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import popeFrancis from 'assets/img/pope-francis.png'
 import { IconButton } from 'components/IconButton/IconButton.styled'
+const popeFrancis = require('assets/img/pope-francis.png')
 
 export const FeaturedCard = styled.div`
   position: relative;

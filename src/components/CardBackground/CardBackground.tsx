@@ -4,18 +4,18 @@ import * as Styled from './CardBackground.styled'
 // constants
 import { Images } from 'constants/types'
 // assets
-import kanye from 'assets/img/people/kanye.png'
-import kanye2x from 'assets/img/people/kanye@2x.png'
-import cristina from 'assets/img/people/cristina.png'
-import cristina2x from 'assets/img/people/cristina@2x.png'
-import elon from 'assets/img/people/elon.png'
-import elon2x from 'assets/img/people/elon@2x.png'
-import greta from 'assets/img/people/greta.png'
-import greta2x from 'assets/img/people/greta@2x.png'
-import malala from 'assets/img/people/malala.png'
-import malala2x from 'assets/img/people/malala@2x.png'
-import mark from 'assets/img/people/mark.png'
-import mark2x from 'assets/img/people/mark@2x.png'
+const kanye = require('assets/img/people/kanye.png')
+const kanye2x = require('assets/img/people/kanye@2x.png')
+const cristina = require('assets/img/people/cristina.png')
+const cristina2x = require('assets/img/people/cristina@2x.png')
+const elon = require('assets/img/people/elon.png')
+const elon2x = require('assets/img/people/elon@2x.png')
+const greta = require('assets/img/people/greta.png')
+const greta2x = require('assets/img/people/greta@2x.png')
+const malala = require('assets/img/people/malala.png')
+const malala2x = require('assets/img/people/malala@2x.png')
+const mark = require('assets/img/people/mark.png')
+const mark2x = require('assets/img/people/mark@2x.png')
 
 interface CardBackgroundProps {
   name: string

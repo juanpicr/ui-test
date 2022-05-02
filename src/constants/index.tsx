@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'constants/types'
-import facebookIcon from '../assets/img/facebook.svg'
-import twitterIcon from '../assets/img/twitter.svg'
+const facebookIcon = require('assets/img/facebook.svg').default as string
+const twitterIcon = require('assets/img/twitter.svg').default as string
 
 export const navLinks: Link[] = [
   { to: '/pastTrials', label: 'Past Trials' },
