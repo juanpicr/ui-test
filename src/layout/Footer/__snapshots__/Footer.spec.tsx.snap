@@ -2,10 +2,10 @@
 
 exports[`footer renders correctly 1`] = `
 <footer
-  className="sc-bczRLJ elECVD"
+  className="sc-jOrMOR hgcrGr"
 >
   <div
-    className="sc-gsnTZi kATRWH"
+    className="sc-dPyBCJ hCiXPM"
   >
     <ul>
       <li>
@@ -35,7 +35,7 @@ exports[`footer renders correctly 1`] = `
     </ul>
   </div>
   <div
-    className="sc-dkzDqf cuaJll"
+    className="sc-bBXxYQ dTYjL"
   >
     <span>
       Follow us
