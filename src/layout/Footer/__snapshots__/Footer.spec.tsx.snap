@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer renders correctly 1`] = `
+<footer
+  className="sc-bczRLJ elECVD"
+>
+  <div
+    className="sc-gsnTZi kATRWH"
+  >
+    <ul>
+      <li>
+        <a
+          href="/termsAndConditions"
+          onClick={[Function]}
+        >
+          Terms and Conditions
+        </a>
+      </li>
+      <li>
+        <a
+          href="/privacyPolicy"
+          onClick={[Function]}
+        >
+          Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a
+          href="/contactUs"
+          onClick={[Function]}
+        >
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="sc-dkzDqf cuaJll"
+  >
+    <span>
+      Follow us
+    </span>
+    <ul>
+      <li>
+        <a
+          href="/https://www.facebook.com/"
+          onClick={[Function]}
+        >
+          <img
+            alt="facebook"
+            src="facebook.svg"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="/https://www.twitter.com/"
+          onClick={[Function]}
+        >
+          <img
+            alt="twitter"
+            src="twitter.svg"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+`;
