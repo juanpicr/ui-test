@@ -2,8 +2,8 @@ import React from 'react'
 // Styled
 import * as Styled from './Banner.styled'
 // Assets
-import bgPeople from 'assets/img/bg-people.png'
-import bgPeople2x from 'assets/img/bg-people.@2x.png'
+const bgPeople = require('assets/img/bg-people.png')
+const bgPeople2x = require('assets/img/bg-people.@2x.png')
 
 const BannerBottom = () => {
   return (
